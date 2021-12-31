@@ -140,6 +140,7 @@ namespace TcKimlikNoSorgulama
             this.txtAd.Name = "txtAd";
             this.txtAd.Properties.Appearance.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtAd.Properties.Appearance.Options.UseFont = true;
+            this.txtAd.Properties.PasswordChar = '-';
             this.txtAd.Size = new System.Drawing.Size(204, 24);
             this.txtAd.TabIndex = 1;
             // 
@@ -149,6 +150,7 @@ namespace TcKimlikNoSorgulama
             this.txtTc.Name = "txtTc";
             this.txtTc.Properties.Appearance.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtTc.Properties.Appearance.Options.UseFont = true;
+            this.txtTc.Properties.PasswordChar = '*';
             this.txtTc.Size = new System.Drawing.Size(204, 24);
             this.txtTc.TabIndex = 0;
             // 
