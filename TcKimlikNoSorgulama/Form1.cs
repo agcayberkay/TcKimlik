@@ -24,7 +24,7 @@ namespace TcKimlikNoSorgulama
 
             if (kontrol)
             {
-                MessageBox.Show("Bilgileriniz doğrulandı!","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                MessageBox.Show("Bilgileriniz 21221!","Bilgi",MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
             else
             {
@@ -36,6 +36,11 @@ namespace TcKimlikNoSorgulama
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
         }
     }
 }
